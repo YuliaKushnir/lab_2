@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".InputFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Замовити піцу"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Діаметр:"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="23 см" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="27 см" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="33 см" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Додаткові опції:"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:text="Додатковий сир"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:text="Безглютенове тісто"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:text="Борт хот-дог"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:text="OK"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
